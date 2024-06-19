@@ -18,7 +18,3 @@ class TestSkip(unittest.TestCase):
         if 1 == 1:
             self.skipTest("external resource not available")
         print("shouldn't happen")
-
-
-if __name__ == "__main__":
-    unittest.main()

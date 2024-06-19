@@ -26,7 +26,3 @@ class TestLifecycle(unittest.TestCase):
 
     def test_second(self):
         print("second")
-
-
-if __name__ == "__main__":
-    unittest.main()

@@ -6,7 +6,9 @@ setup(
     packages=find_packages(),
     install_requires=[],
     setup_requires=[],
-    tests_require=[],
+    tests_require=[
+        "parameterized",
+    ],
     entry_points={
         "console_scripts": [],
     },
