@@ -1,4 +1,4 @@
-# My Project
+# 02_pytest
 
 This is a simple calculator project implemented in Python. It provides basic arithmetic operations as well as some scientific functions.
 
@@ -35,10 +35,14 @@ pip install .
 
 ### Run Test
 
+[Pytest 官方文件](https://pytest.org)
+
 #### pytest
 
-```powershell
+```bash
 pytest -vv
 ```
 
-### 計算 Coverage 
+### 計算 Coverage
+
+- add dependency `pytest-cov`
